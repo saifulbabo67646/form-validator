@@ -1,0 +1,84 @@
+html,body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+}
+
+.signupform{
+	background-color: #efefee;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.box{
+	min-height: 450px;
+    padding: 20px 25px;
+    max-height: 100%;
+    width: 450px;
+    background: #fff;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.signupform .box form{
+	display: flex;
+	flex-direction: column;
+}
+.form-baba input{
+	border:none;
+	border-bottom: 1px solid #ddd;
+	padding: 5px 5px;
+	outline: none;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 7px;
+}
+.form-baba span{
+    visibility: hidden;
+    color: #f44251;
+    font-size: 13px;
+}
+
+.form-baba.error span{
+    visibility: visible;
+}
+
+input[type="submit"]{
+	width: 80px;
+	height: 35px;
+	background-color: #4285f4;
+	color: #fff;
+	font-size: 18px;
+	border:none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.signupform .box img{
+	width: 150px;
+}
+.signupform .box h3{
+	font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+}
+.signupform .box .tex{
+	font-size: 18px;
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+
+.form-baba.success input{
+	border-bottom: 2px solid #42f46e;
+}
+
+.form-baba.error input{
+	border-bottom: 2px solid #f44251;
+}
+
+
+
+
+
